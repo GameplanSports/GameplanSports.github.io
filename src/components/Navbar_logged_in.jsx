@@ -5,8 +5,7 @@ export default function DefaultNavbar() {
                 <li><a href="#/">Home</a></li>
                 <li><a href="#/teams">Teams</a></li>
                 <li><a href="#/dashboard">Dashboard</a></li>
-                <li>Sign in</li>
-                <li>Sign up</li>
+                <li>Sign out</li>
             </ul>
         </nav>
     )
