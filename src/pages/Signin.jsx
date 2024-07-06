@@ -19,8 +19,8 @@ export default function Signin() {
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
             </Form>
-            <Button variant="primary">Sign in</Button>
-            <p>Don't have an account? <a href="/signup">Sign up</a></p>
+            <a href="#/dashboard"><Button variant="primary" className='mb-3'>Sign in</Button></a>
+            <p className='mb-3'>Don't have an account? <a href="#/signup">Sign up</a></p>
         </>
     )
 }
