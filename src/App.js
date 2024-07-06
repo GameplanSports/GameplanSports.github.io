@@ -8,6 +8,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import logo from './logo.svg';
 import './App.css';
+import './Global.css';
 
 function App() {
   return (
