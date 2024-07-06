@@ -1,6 +1,7 @@
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import Teams from './pages/Teams';
+import DefaultNavbar from './components/DefaultNavbar';
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -10,6 +11,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    <DefaultNavbar />
     <Router>
       <div>
         {/* <Header /> */}
