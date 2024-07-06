@@ -1,6 +1,7 @@
 import NavbarDefault from '../components/Navbar_default';
 
 export default function Home() {
+    
     return (
         <>
             <NavbarDefault />
