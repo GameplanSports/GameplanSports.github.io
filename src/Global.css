@@ -2,6 +2,7 @@
 :root {
     --gp-blue: #1188F0;
     --gp-blue-secondary: #0F3E67;
+    --gp-white-background: #FAF9F9;
     /* Body colours */
     --bs-body-color: black;
     --bs-body-bg: #FAF9F9;
@@ -28,10 +29,14 @@
 }
 
 .cardButton {
-    background-color: var(--gp-blue) !important;
-    border-color: var(--gp-blue) !important;
+    background-color: var(--gp-blue-secondary) !important;
+    border-color: var(--gp-blue-secondary) !important;
 }
 
 .btn-primary:hover {
     color: black !important;
+}
+
+.cardStyle {
+    background-color: var(--gp-white-background) !important;
 }

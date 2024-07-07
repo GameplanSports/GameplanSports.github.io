@@ -23,7 +23,7 @@ export default function Home() {
                 <h2>Features</h2>
                 <div className="d-flex justify-content-center">
                     <Card style={{ width: '18rem', margin: '10px' }}>
-                        <Card.Body>
+                        <Card.Body className='cardStyle'>
                             <Card.Title>Teams</Card.Title>
                             <Card.Text>
                                 Join, create and manage teams with ease with out new team manager.
@@ -32,7 +32,7 @@ export default function Home() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '10px' }}>
-                        <Card.Body>
+                        <Card.Body className='cardStyle'>
                             <Card.Title>Events</Card.Title>
                             <Card.Text>
                                 View your team calendar events easily on your dashboard.
@@ -41,7 +41,7 @@ export default function Home() {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '10px' }}>
-                        <Card.Body>
+                        <Card.Body className='cardStyle'>
                             <Card.Title>Chat</Card.Title>
                             <Card.Text>
                                 Chat with your coworkers to prepare for game time using our new chat.
