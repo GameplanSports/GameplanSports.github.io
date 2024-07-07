@@ -3,6 +3,7 @@ import Teams from './pages/Teams';
 import Dashboard from './pages/Dashboard';
 import Signup from './pages/Signup';
 import Signin from './pages/Signin';
+import CreateTeam from './pages/Createteam';
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/signin" element={<Signin />} />
+          <Route path="/createteam" element={<CreateTeam />} />
         </Routes>
         {/* <Footer /> */}
       </div>

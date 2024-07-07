@@ -138,3 +138,17 @@
 .filterXIcon:hover {
     cursor: pointer;
 }
+
+.teamCreationInputDescriptors {
+    /* color: var(--gp-blue-secondary); */
+    text-align: left !important;
+}
+
+#privateTeamSwitch {
+    width: 4em;
+    height: 2em;
+}
+
+#privateTeamSwitch:checked {
+    background-color: var(--gp-blue);
+}
