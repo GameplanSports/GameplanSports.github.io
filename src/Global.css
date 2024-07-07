@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root {
-    --lb-orange: #1188F0;
-    --lb-orange-secondary: #0F3E67;
+    --gp-blue: #1188F0;
+    --gp-blue-secondary: #0F3E67;
     /* Body colours */
     --bs-body-color: black;
     --bs-body-bg: #FAF9F9;
@@ -14,6 +14,7 @@
     /* Primary colour */
     --bs-primary: #1188f0;
     --bs-primary-rgb: 17, 136, 240;
+    --bs-primary-rgba: 17, 136, 240, 1;
     --bs-primary-bg-subtle: #125c9c;
     --bs-primary-text-emphasis: #1188f0;
     
@@ -23,4 +24,14 @@
 
 #root {
     font-family: Lalezar;
+    background-color: #FAF9F9;
+}
+
+.cardButton {
+    background-color: var(--gp-blue) !important;
+    border-color: var(--gp-blue) !important;
+}
+
+.btn-primary:hover {
+    color: black !important;
 }

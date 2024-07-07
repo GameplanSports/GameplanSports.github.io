@@ -15,8 +15,8 @@ export default function DefaultNavbar() {
                     </Nav>
                 </Navbar.Collapse>
                 <Navbar.Collapse className="justify-content-end">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#/">Log out</Nav.Link>
+                    <Nav>
+                        <Nav.Link href="#/" style={{ textAlign: 'right' }}>Log out</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

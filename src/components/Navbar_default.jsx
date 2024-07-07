@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 
 export default function DefaultNavbar() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body-primary">
             <Container>
                 <Navbar.Brand href="#/">Gameplan</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
