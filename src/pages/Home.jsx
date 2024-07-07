@@ -28,7 +28,7 @@ export default function Home() {
                             <Card.Text>
                                 Join, create and manage teams with ease with out new team manager.
                             </Card.Text>
-                            <a href='#/signin'><Button className="cardButton">Explore</Button></a>
+                            <a href='#/signin'><Button className="btn btn-secondary">Explore</Button></a>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '10px' }}>
@@ -37,7 +37,7 @@ export default function Home() {
                             <Card.Text>
                                 View your team calendar events easily on your dashboard.
                             </Card.Text>
-                            <a href='#/signin'><Button className="cardButton">Explore</Button></a>
+                            <a href='#/signin'><Button className="btn btn-secondary">Explore</Button></a>
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem', margin: '10px' }}>
@@ -46,7 +46,7 @@ export default function Home() {
                             <Card.Text>
                                 Chat with your coworkers to prepare for game time using our new chat.
                             </Card.Text>
-                            <a href='#/signin'><Button className="cardButton">Explore</Button></a>
+                            <a href='#/signin'><Button className="btn btn-secondary">Explore</Button></a>
                         </Card.Body>
                     </Card>
                 </div>

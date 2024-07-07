@@ -19,6 +19,9 @@
     --bs-primary-bg-subtle: #125c9c;
     --bs-primary-text-emphasis: #1188f0;
     --bs-table-bg: #0F3E67;
+    --bs-danger: #941C2F;
+    --bs-danger-text-emphasis: #58151c;
+
     
 }
 
@@ -34,8 +37,37 @@
     border-color: var(--gp-blue-secondary) !important;
 }
 
+.btn-primary {
+    background-color: var(--gp-blue) !important;
+    border-color: var(--gp-blue) !important;
+}
+
 .btn-primary:hover {
-    color: black !important;
+    background-color: var(--gp-blue-secondary) !important;
+    border-color: var(--gp-blue-secondary) !important;
+}
+
+.btn-secondary {
+    background-color: var(--gp-blue-secondary) !important;
+    border-color: var(--gp-blue-secondary) !important;
+    transition-duration: 0.15s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--gp-blue) !important;
+    border-color: var(--gp-blue) !important;
+    cursor: pointer;
+    transition-duration: 0.15s;
+}
+
+.btn-danger {
+    background-color: var(--bs-danger) !important;
+    border-color: var(--bs-danger) !important;
+}
+
+.btn-danger:hover {
+    background-color: var(--bs-danger-text-emphasis) !important;
+    border-color: var(--bs-danger-text-emphasis) !important;
 }
 
 .cardStyle {
@@ -61,6 +93,48 @@
     margin: 5px auto;
 }
 
-.row {
+.eventBoxRows {
     margin-top: 20px !important;
+}
+
+.sectionTitle {
+    color: var(--gp-blue);
+    text-align: left;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: .5rem;
+    padding-top: 3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.teamsLineBreak {
+    border: var(--bs-tertiary-bg) 1px solid;
+    border-radius: 4px;
+    opacity: 1;
+    width: 100%;
+    margin: 5px auto 5px auto;
+}
+
+.teamsTextEntries {
+    margin: auto 0px;
+}
+
+.filterBody {
+    background-color: var(--gp-white-background) !important;
+    color: black !important;
+    border-radius: 10px;
+    border: 2px solid black !important;
+}
+
+.filterBody:hover {
+    background-color: var(--gp-white-background) !important;
+    color: black !important;
+    border-radius: 10px;
+    border: 2px solid black !important;
+    cursor: default;
+}
+
+.filterXIcon:hover {
+    cursor: pointer;
 }

@@ -8,9 +8,9 @@ export default function Dashboard() {
     return (
         <div className='px-5' style={{ minHeight: "100vh" }}>
             <NavbarLoggedIn />
-            <h1 className='px-2 pt-3' style={{textAlign: "left"}}>Upcoming games and events:</h1>
+            <h1 className='sectionTitle'>Upcoming games and events:</h1>
             <Container style={{margin:'0px', padding:'0px'}}>
-                <Row>
+                <Row className='eventBoxRows'>
                     <Col>
                         <div className='eventBoxStyle'>
                             <p className='eventTextStyle'>You (Ottawa Senators) @ Edmonton Oilers</p>
@@ -28,7 +28,7 @@ export default function Dashboard() {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row className='eventBoxRows'>
                     <Col>
                         <div className='eventBoxStyle'>
                             <p className='eventTextStyle'>You (Ottawa Senators) @ Edmonton Oilers</p>
@@ -48,7 +48,7 @@ export default function Dashboard() {
                 </Row>
             </Container>
 
-            <h1 className='px-2 pt-5' style={{textAlign: "left"}}>Your team stats:</h1>
+            <h1 className='sectionTitle'>Your team stats:</h1>
             <Table bordered classname='statsTable' style={{border:'black', backgroundColor:'#FAF9F9'}}>
             <thead>
                 <tr>
