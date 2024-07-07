@@ -7,7 +7,7 @@ import '../Global.css';
 export default function Home() {
     
     return (
-        <>
+        <div style={{ minHeight: "100vh" }}>
             <NavbarDefault />
             
             <div className="container">
@@ -51,6 +51,6 @@ export default function Home() {
                     </Card>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

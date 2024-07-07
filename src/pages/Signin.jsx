@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Signin() {
     
     return (
-        <>
+        <div className="container" style={{ minHeight: "100vh" }}>
             <h1>Sign in to your account</h1>
             <p>Sign in to access your dashboard and your teams</p>
             <Form>
@@ -20,6 +20,6 @@ export default function Signin() {
             </Form>
             <a href="#/dashboard"><Button variant="primary" className='mb-3'>Sign in</Button></a>
             <p className='mb-3'>Don't have an account? <a href="#/signup">Sign up</a></p>
-        </>
+        </div>
     )
 }
