@@ -18,6 +18,7 @@
     --bs-primary-rgba: 17, 136, 240, 1;
     --bs-primary-bg-subtle: #125c9c;
     --bs-primary-text-emphasis: #1188f0;
+    --bs-table-bg: #0F3E67;
     
 }
 
@@ -39,4 +40,31 @@
 
 .cardStyle {
     background-color: var(--gp-white-background) !important;
+}
+
+.eventBoxStyle {
+    border: var(--gp-blue-secondary) 2px solid;
+    border-radius: 25px;
+}
+
+.eventTextStyle {
+    color: var(--gp-blue-secondary);
+    margin: 0px;
+    padding: 5px;
+}
+
+.eventLineStyle {
+    border: var(--gp-blue-secondary) 1px solid;
+    border-radius: 4px;
+    opacity: 1;
+    width: 80%;
+    margin: 5px auto;
+}
+
+.row {
+    margin-top: 20px !important;
+}
+
+.table {
+    background-color: var(--bs-table-bg) !important;
 }
