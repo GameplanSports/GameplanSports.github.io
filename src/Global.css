@@ -140,7 +140,6 @@
 }
 
 .teamCreationInputDescriptors {
-    /* color: var(--gp-blue-secondary); */
     text-align: left !important;
 }
 
@@ -151,4 +150,13 @@
 
 #privateTeamSwitch:checked {
     background-color: var(--gp-blue);
+}
+
+.chatPersonName {
+    color: var(--gp-blue);
+    text-align: left;
+}
+
+.correctBackgroundColor {
+    background-color: var(--gp-white-background);
 }

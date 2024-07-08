@@ -12,6 +12,7 @@ export default function DefaultNavbar() {
                     <Nav className="me-auto">
                         <Nav.Link href="#/dashboard">Dashboard</Nav.Link>
                         <Nav.Link href="#/teams">Teams</Nav.Link>
+                        <Nav.Link href="#/chat">Chat</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Navbar.Collapse className="justify-content-end">

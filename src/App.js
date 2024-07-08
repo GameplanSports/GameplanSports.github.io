@@ -4,10 +4,10 @@ import Dashboard from './pages/Dashboard';
 import Signup from './pages/Signup';
 import Signin from './pages/Signin';
 import CreateTeam from './pages/Createteam';
+import Chat from './pages/Chat';
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
-import logo from './logo.svg';
 import './App.css';
 import './Global.css';
 
@@ -24,26 +24,11 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/createteam" element={<CreateTeam />} />
+          <Route path="/chat" element={<Chat />} />
         </Routes>
         {/* <Footer /> */}
       </div>
     </Router>
-    
-      {/* This is the default App.js file.
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
     </div>
   );
 }
