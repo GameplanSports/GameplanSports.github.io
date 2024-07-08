@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import NavbarDefault from '../components/Navbar_default';
-import Footer from '../components/Footer';
+import Footer from '../components/GameplanFooter';
 import hockeyPhoto from '../assets/hockey-team.jpg';
 import '../Global.css';
 

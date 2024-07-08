@@ -1,5 +1,5 @@
 import NavbarLoggedIn from '../components/Navbar_logged_in';
-import Footer from '../components/Footer';
+import Footer from '../components/GameplanFooter';
 import React from "react";
 import {
   MDBContainer,

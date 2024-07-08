@@ -7,7 +7,7 @@ export default function DefaultNavbar() {
     return (
         <Navbar expand="lg" className="bg-body-primary">
             <Container>
-                <Navbar.Brand href="#/dashboard" className='gameplanBrandName'>Gameplan</Navbar.Brand>
+                <Navbar.Brand href="#/" className='gameplanBrandName'>Gameplan</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

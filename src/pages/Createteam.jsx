@@ -1,5 +1,5 @@
 import NavbarLoggedIn from '../components/Navbar_logged_in';
-import Footer from '../components/Footer';
+import Footer from '../components/GameplanFooter';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import '../Global.css';
@@ -40,7 +40,7 @@ export default function CreateTeams() {
                     <Form.Control as="textarea" rows={5} />
                 </Form.Group>
                 <Form.Group>
-                    <Button variant="primary" type="submit" style={{marginBottom:'10em'}}> Create Team </Button>
+                    <Button variant="primary" type="submit" style={{marginBottom:'3em'}}> Create Team </Button>
                 </Form.Group>
             </Form>
             <Footer />
