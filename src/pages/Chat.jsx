@@ -35,7 +35,7 @@ export default function Chat() {
                             className="p-2 border-bottom"
                             style={{ backgroundColor: "#eee" }}
                             >
-                            <a href="#!" className="d-flex justify-content-between">
+                            <a href="#/chat" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-8.webp"
@@ -45,7 +45,7 @@ export default function Chat() {
                                 />
                                 <div className="pt-1">
                                     <p className="fw-bold mb-0 chatPersonName">John Doe</p>
-                                    <p className="small text-muted">
+                                    <p className="small chatText">
                                     Hey, how are you?
                                     </p>
                                 </div>
@@ -57,7 +57,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between">
+                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-1.webp"
@@ -67,7 +67,7 @@ export default function Chat() {
                                 />
                                 <div className="pt-1">
                                     <p className="fw-bold mb-0 chatPersonName">Danny Smith</p>
-                                    <p className="small text-muted">
+                                    <p className="small chatText">
                                     Yep. I can't wait.
                                     </p>
                                 </div>
@@ -78,7 +78,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between">
+                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-2.webp"
@@ -88,7 +88,7 @@ export default function Chat() {
                                 />
                                 <div className="pt-1">
                                     <p className="fw-bold mb-0 chatPersonName">Alex Steward</p>
-                                    <p className="small text-muted">
+                                    <p className="small chatText">
                                     I'll be there in 20.
                                     </p>
                                 </div>
@@ -99,7 +99,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between">
+                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-3.webp"
@@ -109,7 +109,7 @@ export default function Chat() {
                                 />
                                 <div className="pt-1">
                                     <p className="fw-bold mb-0 chatPersonName">Ashley Olsen</p>
-                                    <p className="small text-muted">
+                                    <p className="small chatText">
                                     You still want those tickets?
                                     </p>
                                 </div>
@@ -120,7 +120,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between">
+                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-4.webp"
@@ -130,7 +130,7 @@ export default function Chat() {
                                 />
                                 <div className="pt-1">
                                     <p className="fw-bold mb-0 chatPersonName">Kate Moss</p>
-                                    <p className="small text-muted">
+                                    <p className="small chatText">
                                     Perfect, thank you!
                                     </p>
                                 </div>
@@ -141,7 +141,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2 border-bottom">
-                            <a href="#!" className="d-flex justify-content-between">
+                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-5.webp"
@@ -151,7 +151,7 @@ export default function Chat() {
                                 />
                                 <div className="pt-1">
                                     <p className="fw-bold mb-0 chatPersonName">Lara Croft</p>
-                                    <p className="small text-muted">
+                                    <p className="small chatText">
                                     Wow that's great!
                                     </p>
                                 </div>
@@ -162,7 +162,7 @@ export default function Chat() {
                             </a>
                             </li>
                             <li className="p-2">
-                            <a href="#!" className="d-flex justify-content-between">
+                            <a href="#!" className="d-flex justify-content-between" style={{textDecoration:'none'}}>
                                 <div className="d-flex flex-row">
                                 <img
                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/avatar-6.webp"
@@ -172,7 +172,7 @@ export default function Chat() {
                                 />
                                 <div className="pt-1">
                                     <p className="fw-bold mb-0 chatPersonName">Brad Pitt</p>
-                                    <p className="small text-muted">
+                                    <p className="small chatText">
                                     I still can't blieve that happened.
                                     </p>
                                 </div>
@@ -201,13 +201,13 @@ export default function Chat() {
                         />
                         <MDBCard>
                             <MDBCardHeader className="d-flex justify-content-between p-3">
-                            <p className="fw-bold mb-0">Brad Pitt</p>
+                            <p className="fw-bold mb-0 chatPersonName">Brad Pitt</p>
                             <p className="text-muted small mb-0">
                                 <MDBIcon far icon="clock" /> 15 mins ago
                             </p>
                             </MDBCardHeader>
                             <MDBCardBody>
-                            <p className="mb-0">
+                            <p className="mb-0 chatText">
                                 Hey, just checking in. Do you think you can make it to the
                                 game on Friday? If not, it's totally fine. Just let me know
                                 so I can find a replacement.
@@ -218,13 +218,13 @@ export default function Chat() {
                         <li class="d-flex justify-content-between mb-4">
                         <MDBCard className="w-100">
                             <MDBCardHeader className="d-flex justify-content-between p-3">
-                            <p class="fw-bold mb-0">You</p>
+                            <p class="fw-bold mb-0 chatPersonName">You</p>
                             <p class="text-muted small mb-0">
                                 <MDBIcon far icon="clock" /> 13 mins ago
                             </p>
                             </MDBCardHeader>
                             <MDBCardBody>
-                            <p className="mb-0">
+                            <p className="mb-0 chatText">
                                 Hey! I'm not sure if I can make it. I'll have to check when I get home. I'll let you 
                                 know as soon as I can.
                             </p>
@@ -246,13 +246,13 @@ export default function Chat() {
                         />
                         <MDBCard>
                             <MDBCardHeader className="d-flex justify-content-between p-3">
-                            <p className="fw-bold mb-0">Brad Pitt</p>
+                            <p className="fw-bold mb-0 chatPersonName">Brad Pitt</p>
                             <p className="text-muted small mb-0">
                                 <MDBIcon far icon="clock" /> 10 mins ago
                             </p>
                             </MDBCardHeader>
                             <MDBCardBody>
-                            <p className="mb-0">
+                            <p className="mb-0 chatText">
                                 Ok perfect thanks. Also, don't forget that this next Saturday we have the
                                 tournament. Hopefully you can make it to that. We need our big goal scorer!
                             </p>

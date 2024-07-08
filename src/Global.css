@@ -122,26 +122,24 @@
 }
 
 .teamsTextEntries {
-    margin: auto 0px;
+    margin: auto 0px !important;
 }
 
 .filterBody {
     background-color: var(--gp-white-background) !important;
     color: black !important;
-    border-radius: 10px;
     border: 2px solid black !important;
 }
 
 .filterBody:hover {
     background-color: var(--gp-white-background) !important;
     color: black !important;
-    border-radius: 10px;
     border: 2px solid black !important;
     cursor: default;
 }
 
 .filterXIcon:hover {
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .teamCreationInputDescriptors {
@@ -160,6 +158,10 @@
 .chatPersonName {
     color: var(--gp-blue);
     text-align: left;
+}
+
+.chatText {
+    color: var(--gp-blue-secondary) !important;
 }
 
 .correctBackgroundColor {
