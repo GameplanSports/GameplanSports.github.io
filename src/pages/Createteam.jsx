@@ -1,4 +1,5 @@
 import NavbarLoggedIn from '../components/Navbar_logged_in';
+import Footer from '../components/Footer';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import '../Global.css';
@@ -7,7 +8,7 @@ export default function CreateTeams() {
     return (
         <div className="container" style={{width:'60%'}}>
             <NavbarLoggedIn />
-            
+
             <h1 className='sectionTitle'>Create a team</h1>
             <Form>
                 <Form.Group className="mb-3 py-3" controlId="exampleForm.ControlInput1">
@@ -42,6 +43,7 @@ export default function CreateTeams() {
                     <Button variant="primary" type="submit" style={{marginBottom:'10em'}}> Create Team </Button>
                 </Form.Group>
             </Form>
+            <Footer />
         </div>
     )
 }

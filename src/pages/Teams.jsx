@@ -1,4 +1,5 @@
 import NavbarLoggedIn from '../components/Navbar_logged_in';
+import Footer from '../components/Footer';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -156,9 +157,9 @@ export default function Teams() {
                         <Button variant='primary' className="btn btn-primary" style={{width:'100%'}}>Join</Button>
                     </Col>
                 </Row>
-                
-
             </Container>
+
+            <Footer />
         </div>
     )
 }

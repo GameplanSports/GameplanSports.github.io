@@ -32,6 +32,11 @@
     background-color: #FAF9F9;
 }
 
+.gameplanBrandName {
+    color: var(--gp-blue-secondary) !important;
+    font-size: 2em !important;
+}
+
 .cardButton {
     background-color: var(--gp-blue-secondary) !important;
     border-color: var(--gp-blue-secondary) !important;
@@ -163,8 +168,11 @@
 
 .table {
     --bs-table-accent-bg: var(--gp-white-background) !important;
+    --bs-table-striped-bg: #00000020 !important;
 }
 
 .tableHeadItem {
-    color:var(--gp-blue-secondary) !important;
+    --bs-table-accent-bg: var(--gp-blue-secondary) !important;
+    color: var(--gp-white-background) !important;
+    font-weight: normal !important;
 }

@@ -16,7 +16,6 @@ function App() {
     <div className="App">
     <Router>
       <div>
-        {/* <Header /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/teams" element={<Teams />} />
@@ -26,7 +25,6 @@ function App() {
           <Route path="/createteam" element={<CreateTeam />} />
           <Route path="/chat" element={<Chat />} />
         </Routes>
-        {/* <Footer /> */}
       </div>
     </Router>
     </div>

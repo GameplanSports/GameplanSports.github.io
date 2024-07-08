@@ -1,4 +1,5 @@
 import NavbarLoggedIn from '../components/Navbar_logged_in';
+import Footer from '../components/Footer';
 import React from "react";
 import {
   MDBContainer,
@@ -279,6 +280,7 @@ export default function Chat() {
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
+            <Footer />
         </div>
     )
 }

@@ -1,12 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import "../Global.css"
 
 export default function DefaultNavbar() {
     return (
         <Navbar expand="lg" className="bg-body-primary">
             <Container>
-                <Navbar.Brand href="#/dashboard">Gameplan</Navbar.Brand>
+                <Navbar.Brand href="#/dashboard" className='gameplanBrandName'>Gameplan</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">

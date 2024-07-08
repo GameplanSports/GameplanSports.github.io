@@ -1,4 +1,5 @@
 import NavbarLoggedIn from '../components/Navbar_logged_in';
+import Footer from '../components/Footer';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -50,7 +51,7 @@ export default function Dashboard() {
 
             <h1 className='sectionTitle'>Your team stats:</h1>
             <div className="container">
-                <Table bordered classname='statsTable' style={{border:'black'}}>
+                <Table bordered striped classname='statsTable' style={{border:'black'}}>
                 <thead>
                     <tr>
                     <th className='tableHeadItem'>Player</th>
@@ -185,6 +186,7 @@ export default function Dashboard() {
                 </tbody>
                 </Table>
             </div>
+            <Footer />
         </div>
     )
 }
