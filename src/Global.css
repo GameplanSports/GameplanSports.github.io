@@ -160,3 +160,11 @@
 .correctBackgroundColor {
     background-color: var(--gp-white-background);
 }
+
+.table {
+    --bs-table-accent-bg: var(--gp-white-background) !important;
+}
+
+.tableHeadItem {
+    color:var(--gp-blue-secondary) !important;
+}

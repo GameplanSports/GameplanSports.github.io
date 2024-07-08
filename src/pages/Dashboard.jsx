@@ -9,9 +9,9 @@ export default function Dashboard() {
         <div className='px-5' style={{ minHeight: "100vh" }}>
             <NavbarLoggedIn />
             <h1 className='sectionTitle'>Upcoming games and events:</h1>
-            <Container style={{margin:'0px', padding:'0px'}}>
+            <Container>
                 <Row className='eventBoxRows'>
-                    <Col>
+                    <Col className='col-6'>
                         <div className='eventBoxStyle'>
                             <p className='eventTextStyle'>You (Ottawa Senators) @ Edmonton Oilers</p>
                             <hr className='eventLineStyle'/>
@@ -19,7 +19,7 @@ export default function Dashboard() {
                             <p className='eventTextStyle'>Today, April 29th, 7:00 pm</p>
                         </div>
                     </Col>
-                    <Col>
+                    <Col className='col-6'>
                         <div className='eventBoxStyle'>
                             <p className='eventTextStyle'>You (Ottawa Senators) @ Edmonton Oilers</p>
                             <hr className='eventLineStyle'/>
@@ -49,140 +49,142 @@ export default function Dashboard() {
             </Container>
 
             <h1 className='sectionTitle'>Your team stats:</h1>
-            <Table bordered classname='statsTable' style={{border:'black', backgroundColor:'#FAF9F9'}}>
-            <thead>
-                <tr>
-                <th>Player</th>
-                <th>Position</th>
-                <th>Games played</th>
-                <th>Goals</th>
-                <th>Assists</th>
-                <th>Points</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td>Shane Pinto</td>
-                <td>Center</td>
-                <td>41</td>
-                <td>9</td>
-                <td>18</td>
-                <td>27</td>
-                </tr>
-                <tr>
-                <td>Brady Tkachuk</td>
-                <td>Left Wing</td>
-                <td>81</td>
-                <td>37</td>
-                <td>37</td>
-                <td>74</td>
-                </tr>
-                <tr>
-                <td>Thomas Chabot</td>
-                <td>Defence</td>
-                <td>51</td>
-                <td>9</td>
-                <td>21</td>
-                <td>30</td>
-                </tr>
-                <tr>
-                <td>Shane Pinto</td>
-                <td>Center</td>
-                <td>41</td>
-                <td>9</td>
-                <td>18</td>
-                <td>27</td>
-                </tr>
-                <tr>
-                <td>Brady Tkachuk</td>
-                <td>Left Wing</td>
-                <td>81</td>
-                <td>37</td>
-                <td>37</td>
-                <td>74</td>
-                </tr>
-                <tr>
-                <td>Thomas Chabot</td>
-                <td>Defence</td>
-                <td>51</td>
-                <td>9</td>
-                <td>21</td>
-                <td>30</td>
-                </tr>
-                <tr>
-                <td>Shane Pinto</td>
-                <td>Center</td>
-                <td>41</td>
-                <td>9</td>
-                <td>18</td>
-                <td>27</td>
-                </tr>
-                <tr>
-                <td>Brady Tkachuk</td>
-                <td>Left Wing</td>
-                <td>81</td>
-                <td>37</td>
-                <td>37</td>
-                <td>74</td>
-                </tr>
-                <tr>
-                <td>Thomas Chabot</td>
-                <td>Defence</td>
-                <td>51</td>
-                <td>9</td>
-                <td>21</td>
-                <td>30</td>
-                </tr>
-                <tr>
-                <td>Shane Pinto</td>
-                <td>Center</td>
-                <td>41</td>
-                <td>9</td>
-                <td>18</td>
-                <td>27</td>
-                </tr>
-                <tr>
-                <td>Brady Tkachuk</td>
-                <td>Left Wing</td>
-                <td>81</td>
-                <td>37</td>
-                <td>37</td>
-                <td>74</td>
-                </tr>
-                <tr>
-                <td>Thomas Chabot</td>
-                <td>Defence</td>
-                <td>51</td>
-                <td>9</td>
-                <td>21</td>
-                <td>30</td>
-                </tr>
-                <tr>
-                <td>Shane Pinto</td>
-                <td>Center</td>
-                <td>41</td>
-                <td>9</td>
-                <td>18</td>
-                <td>27</td>
-                </tr>
-                <tr>
-                <td>Brady Tkachuk</td>
-                <td>Left Wing</td>
-                <td>81</td>
-                <td>37</td>
-                <td>37</td>
-                <td>74</td>
-                </tr>
-                <tr>
-                <td>Thomas Chabot</td>
-                <td>Defence</td>
-                <td>51</td>
-                <td>9</td>
-                <td>21</td>
-                <td>30</td>
-                </tr>
-            </tbody>
-            </Table>
+            <div className="container">
+                <Table bordered classname='statsTable' style={{border:'black'}}>
+                <thead>
+                    <tr>
+                    <th className='tableHeadItem'>Player</th>
+                    <th className='tableHeadItem'>Position</th>
+                    <th className='tableHeadItem'>Games played</th>
+                    <th className='tableHeadItem'>Goals</th>
+                    <th className='tableHeadItem'>Assists</th>
+                    <th className='tableHeadItem'>Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>Shane Pinto</td>
+                    <td>Center</td>
+                    <td>41</td>
+                    <td>9</td>
+                    <td>18</td>
+                    <td>27</td>
+                    </tr>
+                    <tr>
+                    <td>Brady Tkachuk</td>
+                    <td>Left Wing</td>
+                    <td>81</td>
+                    <td>37</td>
+                    <td>37</td>
+                    <td>74</td>
+                    </tr>
+                    <tr>
+                    <td>Thomas Chabot</td>
+                    <td>Defence</td>
+                    <td>51</td>
+                    <td>9</td>
+                    <td>21</td>
+                    <td>30</td>
+                    </tr>
+                    <tr>
+                    <td>Shane Pinto</td>
+                    <td>Center</td>
+                    <td>41</td>
+                    <td>9</td>
+                    <td>18</td>
+                    <td>27</td>
+                    </tr>
+                    <tr>
+                    <td>Brady Tkachuk</td>
+                    <td>Left Wing</td>
+                    <td>81</td>
+                    <td>37</td>
+                    <td>37</td>
+                    <td>74</td>
+                    </tr>
+                    <tr>
+                    <td>Thomas Chabot</td>
+                    <td>Defence</td>
+                    <td>51</td>
+                    <td>9</td>
+                    <td>21</td>
+                    <td>30</td>
+                    </tr>
+                    <tr>
+                    <td>Shane Pinto</td>
+                    <td>Center</td>
+                    <td>41</td>
+                    <td>9</td>
+                    <td>18</td>
+                    <td>27</td>
+                    </tr>
+                    <tr>
+                    <td>Brady Tkachuk</td>
+                    <td>Left Wing</td>
+                    <td>81</td>
+                    <td>37</td>
+                    <td>37</td>
+                    <td>74</td>
+                    </tr>
+                    <tr>
+                    <td>Thomas Chabot</td>
+                    <td>Defence</td>
+                    <td>51</td>
+                    <td>9</td>
+                    <td>21</td>
+                    <td>30</td>
+                    </tr>
+                    <tr>
+                    <td>Shane Pinto</td>
+                    <td>Center</td>
+                    <td>41</td>
+                    <td>9</td>
+                    <td>18</td>
+                    <td>27</td>
+                    </tr>
+                    <tr>
+                    <td>Brady Tkachuk</td>
+                    <td>Left Wing</td>
+                    <td>81</td>
+                    <td>37</td>
+                    <td>37</td>
+                    <td>74</td>
+                    </tr>
+                    <tr>
+                    <td>Thomas Chabot</td>
+                    <td>Defence</td>
+                    <td>51</td>
+                    <td>9</td>
+                    <td>21</td>
+                    <td>30</td>
+                    </tr>
+                    <tr>
+                    <td>Shane Pinto</td>
+                    <td>Center</td>
+                    <td>41</td>
+                    <td>9</td>
+                    <td>18</td>
+                    <td>27</td>
+                    </tr>
+                    <tr>
+                    <td>Brady Tkachuk</td>
+                    <td>Left Wing</td>
+                    <td>81</td>
+                    <td>37</td>
+                    <td>37</td>
+                    <td>74</td>
+                    </tr>
+                    <tr>
+                    <td>Thomas Chabot</td>
+                    <td>Defence</td>
+                    <td>51</td>
+                    <td>9</td>
+                    <td>21</td>
+                    <td>30</td>
+                    </tr>
+                </tbody>
+                </Table>
+            </div>
         </div>
     )
 }
